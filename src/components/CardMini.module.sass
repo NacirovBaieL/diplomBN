@@ -1,0 +1,42 @@
+.Card
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    gap: 10px
+    width: 400px
+    height: 180px
+    padding: 20px
+    // background-color: #111
+    border: 1px #000 solid
+    border-radius: 16px
+    &Top
+        display: flex
+        gap: 10px
+        align-items: center
+    &Bottom
+        display: flex
+        justify-content: space-between
+        &Left
+            display: flex
+            flex-direction: column
+            align-items: start
+            justify-content: space-between
+            gap: 16px
+            p
+                font-size: 22px
+                font-weight: 700
+            button
+                background-color: #1E222E
+                color: #fff
+                border: none
+                padding: 10px 30px
+                border-radius: 12px
+                cursor: pointer
+                transition: 0.35s
+                &:hover
+                    background-color: #fff
+                    color: #1E222E 
+        &Right
+            width: 0px
+            height: 0px
+            rotate: -24deg                  
